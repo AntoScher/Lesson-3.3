@@ -7,10 +7,10 @@ SCREEN_HEIGHT = 600
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("Игра Тир")
-icon = pygame.image.load("img/Tir.png")
+icon = pygame.image.load("images/Tir.png")
 pygame.display.set_icon(icon)
 
-target_image=pygame.image.load("img/target73X73.png")
+target_image=pygame.image.load("images/target73X75.png")
 target_width = 73
 target_height = 75
 target_x = random.randint(0, SCREEN_WIDTH - target_width)
