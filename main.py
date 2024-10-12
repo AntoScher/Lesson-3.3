@@ -28,8 +28,7 @@ while running:
                 target_x = random.randint(0, SCREEN_WIDTH - target_width)
                 target_y = random.randint(0, SCREEN_HEIGHT - target_height)
 
-
-
+    screen.blit(target_image, (target_x, target_y))
     pygame.display.update()
     pass
 
